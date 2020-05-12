@@ -50,9 +50,9 @@ pip install Pillow
 pip install autopep8
 ```
 
-
+```
 pip freeze > requirments.txt
-
+```
 
 
 Create project:
@@ -171,6 +171,9 @@ urls.py:
 from django.conf.urls.static import static
 from django.conf import settings
 
+urlpatterns = [
+                ......
+               ]
 
 # media dir works in main project url.py only
 if settings.DEBUG:
