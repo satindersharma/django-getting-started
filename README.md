@@ -16,48 +16,82 @@ If you are just getting started, it's better to start with the right foot.
 
 virtualenv vme
 
+
+
 ctrl+shift+p
+
+
 
 python interpreter
 
 then select currunt vme
 (this will create a .vscode file so next time you press ctrl+shift+` (i.e when you open terminal)
+
+
 this will automatically activate you virtualenv)
+
+
 
 you can manually create it by createing a settings.json file inside a .vscode folder and put following line inside settings.json
 .vscode\settings.json
+
+
 {
     "python.pythonPath": "vme\\Scripts\\python.exe"
 }
 
+
+
 Now your virtualenv is ready
 
+
+
 pip intall django
+
+
 pip install djangorestframework
+
+
 pip install -U autopep8
+
+
 
 some optional:
 ---
 if you going to work with images
 then
+
+
 pip install Pillow
+
+
 pip install autopep8
+
+
 
 pip freeze > requirments.txt
 
+
+
 Create project:
 --------------
+
+
 django-admin startproject project_name .
 (here . will not create a extra nested folder)
 
 create App:
 -------
 
+
+
 python manage.py startapp account
 
 
 now in settings.py:
 ----------
+
+
 
 
 INSTALLED_APPS = [
@@ -77,6 +111,8 @@ INSTALLED_APPS = [
 ]
 
 
+
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -86,35 +122,65 @@ TEMPLATES = [
 
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "static"),]
 
+
+
 MEDIA_URL = '/media/'
+
+
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+
 
 
 LOGIN_URL = '/users/login'
 LOGIN_URL_REDIRECT = '/'
 
+
+
 LOGIN_REDIRECT_URL = '/'
+
+
 # LOGOUT_URL = '/users/login'
+
+
 LOGOUT_REDIRECT_URL = '/'
+
+
 ACCOUNT_EMAIL_REQUIRED = False
+
+
 
 
 # on default debug is True
 # DEBUG = True
+
+
 # ALLOWED_HOSTS = []
 
+
+
 # to see you images and media on debug False
+
+
 # some more additional changes are this
 
 # DEBUG = False
+
+
 # ALLOWED_HOSTS = ['*']     or
+
+
 # ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1']
+
+
 
 STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR),
                            "static_cdn", "static_root")
 
 
 MEDIA_URL = '/media/'
+
+
 MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR),
                           "static_cdn",
                           "media_root")
@@ -123,12 +189,22 @@ MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR),
 PROTECTED_ROOT = os.path.join(os.path.dirname(BASE_DIR),
                               "static_cdn", "protected_media")
 
+
+
 EMAIL_BACKEND = "django.core.mail.backends.filebased.EmailBackend"
+
+
 EMAIL_FILE_PATH = os.path.join(BASE_DIR, "sent_emails")
 
 # now set this in your main project urls.py
+
+
 from django.conf import settings
+
+
 from django.conf.urls.static import static
+
+
 
 if settings.DEBUG:
     urlpatterns = urlpatterns + \
@@ -138,7 +214,11 @@ if settings.DEBUG:
 
 
 
+
+
 # where users is app name and CustomUser is model name
+
+
 AUTH_USER_MODEL = 'users.CustomUser'  # new
 
 
@@ -153,7 +233,11 @@ urls.py:
 
 
 from django.conf.urls.static import static
+
+
 from django.conf import settings
+
+
 # media dir works in main project url.py only
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL,
