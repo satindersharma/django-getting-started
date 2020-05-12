@@ -218,3 +218,44 @@ class Post(models.Model):
     def get_post_url(self):
         return reverse("view-post", kwargs={'slug': self.slug})
 ```
+
+
+
+## Some Important imports
+
+```python
+
+import json
+from os import listdir
+from random import choice
+from django import forms
+from django.conf import settings
+from django.contrib import admin, messages
+from django.contrib.auth import authenticate, login
+from django.contrib.auth.forms import (AuthenticationForm, UserChangeForm,
+                                       UserCreationForm, UsernameField)
+from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.models import AbstractUser, Group
+from django.contrib.auth.views import LoginView, LogoutView
+from django.contrib.contenttypes.models import ContentType
+from django.contrib.messages.views import SuccessMessageMixin
+from django.core.exceptions import ValidationError
+from django.core.serializers.json import DjangoJSONEncoder
+from django.db import models
+from django.db.models import Count, Q
+from django.db.models.functions import TruncDay
+from django.db.models.signals import pre_save, post_save
+from django.db.utils import OperationalError
+from django.http import (Http404, HttpResponse, HttpResponseRedirect,
+                         JsonResponse)
+from django.shortcuts import get_object_or_404, redirect, render
+from django.template.defaultfilters import slugify
+from django.urls import path, reverse, reverse_lazy
+from django.utils.translation import gettext_lazy as _
+from django.views.generic import (
+    CreateView, DeleteView, DetailView, FormView, ListView, UpdateView)
+from django.views.generic.edit import CreateView, View
+
+User = settings.AUTH_USER_MODEL
+
+```
