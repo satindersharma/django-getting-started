@@ -45,8 +45,9 @@ you can manually create it by createing a settings.json file inside a .vscode fo
 Now your virtualenv is ready
 
 
-
+```
 pip intall django
+```
 
 ```command
 pip install djangorestframework
