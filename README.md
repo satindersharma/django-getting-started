@@ -48,12 +48,13 @@ Now your virtualenv is ready
 
 pip intall django
 
-
+```command
 pip install djangorestframework
+```
 
-
+```shell
 pip install -U autopep8
-
+```
 
 
 some optional:
