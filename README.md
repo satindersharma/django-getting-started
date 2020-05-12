@@ -92,7 +92,7 @@ now in settings.py:
 ----------
 
 
-
+```python
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -111,7 +111,7 @@ INSTALLED_APPS = [
 ]
 
 
-
+```
 
 TEMPLATES = [
     {
