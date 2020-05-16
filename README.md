@@ -41,6 +41,10 @@ pip install djangorestframework
 pip install -U autopep8
 ```
 
+vscode: 
+![vscode](https://github.com/satindersharma/all-images/blob/master/icons/vscodeicon.png "vscode")
+
+
 
 some optional:
 ---
