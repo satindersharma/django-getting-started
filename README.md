@@ -13,7 +13,10 @@ ctrl+shift+p
 python interpreter
 
 then select currunt vme
-(this will create a .vscode file so next time you press ctrl+shift+` (i.e when you open terminal)
+(this will create a .vscode file so next time you press
+     ```ctrl+shift+`    ```
+ 
+(i.e when you open terminal)
 
 
 this will automatically activate you virtualenv)
