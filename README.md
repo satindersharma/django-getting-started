@@ -6,9 +6,7 @@ If you are just getting started, it's better to start with the right foot.
 ```
 virtualenv vme
 ```
-```
-ctrl+shift+p
-```
+`ctrl+shift+p`
 
 python interpreter
 
@@ -23,7 +21,7 @@ this will automatically activate you virtualenv)
 
 
 
-you can manually create it by createing a settings.json file inside a .vscode folder and put following line inside settings.json
+you can manually create it by createing a `settings.json` file inside a `.vscode` folder and put following line inside settings.json
 .vscode\settings.json
 
 ```javascript
