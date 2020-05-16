@@ -47,7 +47,7 @@ pip install -U autopep8
 ```
 ## Here you get more customization of vscode for you django project
 <a href="https://github.com/satindersharma/vscode">
-<img src="https://github.com/satindersharma/all-images/blob/master/icons/vscodeicon.png" alt="vscode icon" height="42" width="42">
+<img src="https://github.com/satindersharma/all-images/blob/master/icons/vscodeicon.png" alt="vscode icon" height="256" width="256">
 </a>
 some optional:
 ---
