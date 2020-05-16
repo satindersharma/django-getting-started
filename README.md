@@ -1,4 +1,9 @@
 # django-getting-started
+
+<a href="https://github.com/satindersharma/django-getting-started">
+<img src="https://github.com/satindersharma/all-images/blob/master/icons/djangoicon.png" alt="Django icon" height="512" width="512">
+</a>
+
 If you are just getting started, it's better to start with the right foot.
 
 
@@ -40,10 +45,10 @@ pip intall django
 pip install djangorestframework
 pip install -U autopep8
 ```
-
-
+## Here you get more customization of vscode for you django project
+<a href="https://github.com/satindersharma/vscode">
 <img src="https://github.com/satindersharma/all-images/blob/master/icons/vscodeicon.png" alt="vscode icon" height="42" width="42">
-
+</a>
 some optional:
 ---
 if you going to work with images
