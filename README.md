@@ -42,7 +42,7 @@ pip install -U autopep8
 ```
 
 
-<img src="https://github.com/satindersharma/all-images/blob/master/icons/vscodeicon.png" alt="vscode icon" style="width:4px;height:4px;">
+<img src="https://github.com/satindersharma/all-images/blob/master/icons/vscodeicon.png" alt="vscode icon" height="42" width="42">
 
 some optional:
 ---
