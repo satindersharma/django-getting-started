@@ -42,7 +42,7 @@ pip install -U autopep8
 ```
 
 vscode: 
-![vscode](https://github.com/satindersharma/all-images/blob/master/icons/vscodeicon.png "vscode")
+![vscode](https://github.com/satindersharma/all-images/blob/master/icons/vscodeicon.png "vscode" =100x100)
 
 
 
