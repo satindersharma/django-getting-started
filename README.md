@@ -1,7 +1,7 @@
 # django-getting-started
 
 <a href="https://github.com/satindersharma/django-getting-started">
-<img src="https://github.com/satindersharma/all-images/blob/master/icons/djangoicon.png" alt="Django icon" height="512" width="512">
+<img src="https://github.com/satindersharma/all-images/blob/master/icons/django-logo-positive.png" alt="Django icon">
 </a>
 
 If you are just getting started, it's better to start with the right foot.
