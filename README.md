@@ -46,7 +46,7 @@ pip install djangorestframework
 pip install -U autopep8
 ```
 ## Here you get more customization of `vscode` for you `django` project
-<a href="https://github.com/satindersharma/vscode"><h2>click here</h2></a>
+<a href="https://github.com/satindersharma/vscode" target="_blank"><h2>click here</h2></a>
 
 
 
