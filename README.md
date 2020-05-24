@@ -6,18 +6,30 @@
 
 If you are just getting started, it's better to start with the right foot.
 
+This insure that you are on latest version of pip
+
+```
+pip install --upgrade pip
+
+```
+
 
 ## Create Virtual Environment:
+
 ```
 virtualenv vme
 ```
+[Here you get detail guide on Pipenv & Virtual Environments](https://docs.python-guide.org/dev/virtualenvs/)
+
 `ctrl+shift+p`
 
 python interpreter
 
 then select currunt vme
 (this will create a .vscode file so next time you press
+
      ```ctrl+shift+`    ```
+ 
  
 (i.e when you open terminal)
 
@@ -81,6 +93,10 @@ then
 ```
 pip install Pillow
 ```
+
+Here you get more info on Pillow
+[Pillow](https://pillow.readthedocs.io/en/stable/installation.html)
+
 
 #### save this to one txt file so that in case other need to install same versions of libraries
 ```
