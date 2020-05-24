@@ -6,6 +6,16 @@
 
 If you are just getting started, it's better to start with the right foot.
 
+## Download Python
+
+
+[Python Download](https://www.python.org/downloads/ "Download Python")
+
+#### Tips:
+While installing python make sure to `check` the `add to path` option
+Otherwise you have to set python path in environment variable manually
+
+
 This insure that you are on latest version of pip
 
 ```
