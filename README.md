@@ -39,9 +39,20 @@ you can manually create it by createing a `settings.json` file inside a `.vscode
 
 Now your virtualenv is ready
 
+##### here django 2.2 is recommended as it is the LTS Version
+(further details)[https://www.djangoproject.com/download/]
+
+so if you want LTS Version of Django
+```
+pip intall django==2.2
+```
+else if you Latest Version of Django
 
 ```
 pip intall django
+```
+
+```
 pip install djangorestframework
 pip install -U autopep8
 ```
