@@ -27,7 +27,6 @@ python interpreter
 
 then select currunt vme
 (this will create a .vscode file so next time you press
-
      ```ctrl+shift+`    ```
  
  
