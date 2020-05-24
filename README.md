@@ -60,7 +60,9 @@ you can manually create it by createing a `settings.json` file inside a `.vscode
 
 Now your virtualenv is ready
 
-##### here django 2.2 is recommended as it is the long-term support (LTS) Version
+## Download Django
+
+##### Here Django 2.2 is recommended as it is the long-term support (LTS) Version
 
 [Here you get further details](https://www.djangoproject.com/download/)
 
@@ -75,6 +77,7 @@ else if you Latest Version of Django
 pip intall django
 ```
 
+## Download Django REST framework (In case you are building Web APIs)
 Here you get more info on DRF
 [Django REST framework](https://www.django-rest-framework.org/ "Django REST framework Homepage")
 
@@ -89,6 +92,7 @@ VS Code use the pep 8 to style your code
 ```
 pip install autopep8
 ```
+
 ## Here you get more customization of `vscode` for you `django` project
 <a href="https://github.com/satindersharma/vscode" target="_blank"><h2>click here</h2></a>
 
@@ -96,9 +100,12 @@ pip install autopep8
 
 some optional:
 ---
-if you going to work with images
-then
 
+if you going to work with images or filefield
+
+[Django Model filefield](https://docs.djangoproject.com/en/3.0/ref/models/fields/#filefield)
+
+then install Pillow
 ```
 pip install Pillow
 ```
