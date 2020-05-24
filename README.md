@@ -1,6 +1,5 @@
-# django-getting-started
 
-<h1 style="color:greed">Django Getting Started</h1>
+<h1 style="color:green">Django Getting Started</h1>
 
 <a href="https://github.com/satindersharma/django-getting-started">
 <img src="https://github.com/satindersharma/all-images/blob/master/icons/django-logo-positive.png" alt="Django icon">
