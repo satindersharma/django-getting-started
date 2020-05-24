@@ -40,7 +40,9 @@ you can manually create it by createing a `settings.json` file inside a `.vscode
 Now your virtualenv is ready
 
 ##### here django 2.2 is recommended as it is the long-term support (LTS) Version
+
 (https://www.djangoproject.com/download/)[Here you get further details]
+
 
 so if you want long-term support (LTS) Version of Django
 ```
