@@ -39,10 +39,10 @@ you can manually create it by createing a `settings.json` file inside a `.vscode
 
 Now your virtualenv is ready
 
-##### here django 2.2 is recommended as it is the LTS Version
+##### here django 2.2 is recommended as it is the long-term support (LTS) Version
 (further details)[https://www.djangoproject.com/download/]
 
-so if you want LTS Version of Django
+so if you want long-term support (LTS) Version of Django
 ```
 pip intall django==2.2
 ```
@@ -54,7 +54,7 @@ pip intall django
 
 ```
 pip install djangorestframework
-pip install -U autopep8
+pip install autopep8
 ```
 ## Here you get more customization of `vscode` for you `django` project
 <a href="https://github.com/satindersharma/vscode" target="_blank"><h2>click here</h2></a>
@@ -67,13 +67,18 @@ if you going to work with images
 then
 ```
 pip install Pillow
-pip install autopep8
 ```
 
+#### save this to one txt file so that in case other need to install same versions of libraries
 ```
 pip freeze > requirments.txt
 ```
 
+#### so If anyone wants to install all required libraries, the can run following command
+
+```
+pip install -r requirments.txt
+```
 
 Create project:
 --------------
