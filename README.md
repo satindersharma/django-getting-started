@@ -40,7 +40,7 @@ this will automatically activate you virtualenv)
 you can manually create it by createing a `settings.json` file inside a `.vscode` folder and put following line inside settings.json
 .vscode\settings.json
 
-```json
+```javascript
 
 {
     "python.pythonPath": "vme\\Scripts\\python.exe"
