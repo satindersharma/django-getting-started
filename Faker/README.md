@@ -10,6 +10,12 @@ pip install Faker
 
 [Faker Documentaion](https://faker.readthedocs.io/en/stable/ "Faker")
 
+## setup file according to your project
+
+here change to your project name
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Your_Project_Name.settings')
+
+also change the model name according to your model name
 
 
 ## How to run files
