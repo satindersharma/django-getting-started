@@ -1,14 +1,20 @@
 # To Generate Fake data
 
+## Install Faker module
 
 ```
 pip install Faker
 ```
 
+## Documentation
+
+[Faker Documentaion](https://faker.readthedocs.io/en/stable/ "Faker")
+
+
 
 ## How to run files
 
-#### Create Random Users
+### Create Random Users
 
 
 This will create 20 unique users
@@ -27,7 +33,7 @@ python random_user.py
 when you do python random_user.py 23 here argv[0] is random_user.py, argv[1] is 23
 
 
-#### Create Random posts
+### Create Random posts
 
 
 To create 23 random posts to random users
