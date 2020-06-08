@@ -48,4 +48,4 @@ if __name__ == '__main__':
         # when you do python random_user.py 23 here argv[0] is random_user.py, argv[1] is 23
         random_user(int(argv[1]))
     else:
-        random_user(3)
+        random_user()
