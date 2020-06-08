@@ -68,7 +68,7 @@ virtualenv vme
 ```
 [Here you get detail guide on Pipenv & Virtual Environments](https://docs.python-guide.org/dev/virtualenvs/)
 
-### to select currunt virtualenvironment in VSCode
+### To select currunt virtualenvironment in VSCode
 
 open project_folder in vscode
 
@@ -115,7 +115,6 @@ vme\scripts\activate
 ###### Second way
 As you have already selected you VirtualEnvironment in vs code
 just close the terminal and reopen it by pressing ```ctrl+shift+p````
-
 
 
 Now your virtualenv is ready
