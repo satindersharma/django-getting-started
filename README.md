@@ -399,3 +399,9 @@ from django.views.generic.edit import CreateView, View
 User = settings.AUTH_USER_MODEL
 
 ```
+
+
+
+
+
+<a href="https://github.com/satindersharma/vscode" target="_blank"><h2>To customize you VSCode for django click here</h2></a>
