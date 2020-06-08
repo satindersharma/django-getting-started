@@ -23,14 +23,51 @@ This insure that you are on latest version of pip
 pip install --upgrade pip
 
 ```
+## Create a folder where you want your project
+
+If you want folder name same as Project name
+
+then run
+
+```
+django-admin startproject project_name
+```
+This will create a project inside a same name folder
+
+else
+
+just create a folder and change to that directory
+
+```
+mkdir folder_name
+```
+
+on shell
+
+```
+touch folder_name
+```
+
+Now change to the directory
+
+```
+cd folder_name
+```
 
 
 ## Create Virtual Environment:
+
+
+virtualenv name_of_your_virtualenvironment_folder
 
 ```
 virtualenv vme
 ```
 [Here you get detail guide on Pipenv & Virtual Environments](https://docs.python-guide.org/dev/virtualenvs/)
+
+### to select currunt virtualenvironment in VSCode
+
+open project_folder in vscode
 
 `ctrl+shift+p`
 
