@@ -81,4 +81,4 @@ if __name__ == '__main__':
         else:
             random_post(np=int(argv[1]), u=argv[2])
     else:
-        random_post(3)
+        random_post()
