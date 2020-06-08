@@ -57,8 +57,11 @@ cd folder_name
 
 ## Create Virtual Environment:
 
+give a folder name followed by virtual env
 
-virtualenv name_of_your_virtualenvironment_folder
+virtualenv virtualenvironment_folder_name
+
+for example
 
 ```
 virtualenv vme
@@ -94,6 +97,25 @@ you can manually create it by createing a `settings.json` file inside a `.vscode
     "python.pythonPath": "vme\\Scripts\\python.exe"
 }
 ```
+
+## Activate your virtual environment
+
+###### First way
+type on terminal
+here virtualenvironment_folder_name is the name of your virtual environment created folder name
+
+virtualenvironment_folder_name\scripts\activate
+
+for example
+
+```
+vme\scripts\activate
+```
+
+###### Second way
+As you have already selected you VirtualEnvironment in vs code
+just close the terminal and reopen it by pressing ```ctrl+shift+p````
+
 
 
 Now your virtualenv is ready
