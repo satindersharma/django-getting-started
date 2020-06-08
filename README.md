@@ -139,12 +139,12 @@ Now your virtualenv is ready
 
 so if you want long-term support (LTS) Version of Django
 ```
-pip intall django==2.2
+pip install django==2.2
 ```
 else if you Latest Version of Django
 
 ```
-pip intall django
+pip install django
 ```
 
 ## Download Django REST framework (In case you are building Web APIs)
