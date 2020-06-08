@@ -5,7 +5,7 @@ from faker import Faker
 import random
 from django.contrib.auth.hashers import make_password
 # the below line is copied from wsgi file
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'feelingsPro.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Your_Project_Name.settings')
 django.setup()
 
 
