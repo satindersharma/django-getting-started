@@ -121,7 +121,7 @@ vme\scripts\activate
 
 
 As you have already selected you VirtualEnvironment in vs code
-just close the terminal and reopen it by pressing ```ctrl+shift+p````
+just close the terminal and reopen it by pressing ```ctrl+shift+````
 
 
 Now your virtualenv is ready
