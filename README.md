@@ -42,11 +42,6 @@ just create a folder and change to that directory
 mkdir folder_name
 ```
 
-on shell
-
-```
-touch folder_name
-```
 
 Now change to the directory
 
@@ -207,6 +202,53 @@ create App:
 ```
 python manage.py startapp account
 ```
+
+
+If you want default name for template static and media folder then
+------------------------------------------------------------------
+
+
+```
+mkdir templates static media
+```
+
+
+```python
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [os.path.join(BASE_DIR, "templates"), ],
+        ........
+
+
+STATICFILES_DIRS = [os.path.join(BASE_DIR, "static"),]
+
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+```
+
+To get the media and static working add following to main project `urls.py`
+--------------------------------------------------------------------------
+
+```python
+from django.conf.urls.static import static
+from django.conf import settings
+
+urlpatterns = [
+                ......
+               ]
+
+# media dir works in main project url.py only
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL,
+                          document_root=settings.MEDIA_ROOT)
+
+
+```
+
+
+
 
 now in settings.py:
 ----------
