@@ -200,9 +200,11 @@ django-admin startproject project_name .
 create App:
 -------
 ```
-python manage.py startapp account
+python manage.py startapp accounts
 ```
-
+tips:
+---
+keep app name plural and model name singular
 
 If you want default name for template static and media folder then
 ------------------------------------------------------------------
