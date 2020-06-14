@@ -213,6 +213,14 @@ mkdir templates static media
 ```
 
 
+It's good to keep your static files in organized mannered
+
+
+```
+mkdir static\css static\js static\img
+```
+
+
 ```python
 TEMPLATES = [
     {
