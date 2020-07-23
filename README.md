@@ -181,13 +181,13 @@ Here you get more info on Pillow
 
 #### save this to one txt file so that in case other need to install same versions of libraries
 ```
-pip freeze > requirments.txt
+pip freeze > requirements.txt
 ```
 
 #### So If anyone wants to install all required libraries, the can run following command
 
 ```
-pip install -r requirments.txt
+pip install -r requirements.txt
 ```
 
 Create project:
