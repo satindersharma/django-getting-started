@@ -61,7 +61,7 @@ for example
 ```
 virtualenv vme
 ```
-[Here you get detail guide on Pipenv & Virtual Environments](https://docs.python-guide.org/dev/virtualenvs/)
+[Here you get detail guide on Pipenv & Virtual Environments](https://docs.python-guide.org/dev/virtualenvs/){:target="_blank"}
 
 ### To select currunt virtualenvironment in VSCode
 
