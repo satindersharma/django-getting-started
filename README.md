@@ -222,20 +222,38 @@ It's good to keep your static files in organized mannered
 mkdir static\css static\js static\img
 ```
 
+in one shot
+```
+mkdir templates media static\css static\js static\img
+```
 
 ```python
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, "templates"), ],
+        'DIRS': [os.path.join(BASE_DIR, 'templates'), ],
         ........
 
+# in new version
 
-STATICFILES_DIRS = [os.path.join(BASE_DIR, "static"),]
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [BASE_DIR / 'templates'],
+        ........
 
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),]
+
+
+# in new version
+STATICFILES_DIRS = [BASE_DIR / 'static']
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# in new version
+MEDIA_ROOT = BASE_DIR /  'media'
+
 ```
 
 To get the media and static working add following to main project `urls.py`
