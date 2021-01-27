@@ -1,10 +1,10 @@
 
 # Django Getting Started
-
+<p align="center">
 <a href="https://github.com/satindersharma/django-getting-started">
 <img src="https://github.com/satindersharma/all-images/blob/master/icons/django-logo-positive.png" alt="Django icon">
 </a>
-
+</p>
 If you are just getting started, it's better to start with the right foot.
 
 ## Download Python
