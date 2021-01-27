@@ -475,3 +475,9 @@ User = settings.AUTH_USER_MODEL
 
 
 <a href="https://github.com/satindersharma/vscode" target="_blank"><h2>To customize you VSCode for django click here</h2></a>
+
+<p align="center">
+<a href="https://github.com/satindersharma/vscode">
+<img src="https://github.com/satindersharma/all-images/blob/master/icons/vscodeicon.png" width="300px" height="300px" alt="Vscode icon">
+</a>
+</p>
