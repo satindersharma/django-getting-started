@@ -136,7 +136,7 @@ so if you want long-term support (LTS) Version of Django
 ```
 pip install django==3.2
 ```
-else if you Latest Version of Django
+else if you want Latest Version of Django
 
 ```
 pip install django
