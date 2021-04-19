@@ -127,14 +127,14 @@ Now your virtualenv is ready
 
 ## Download Django
 
-##### Here Django 2.2 is recommended as it is the long-term support (LTS) Version
+##### Here Django 3.2 is recommended as it is the long-term support (LTS) Version
 
 [Here you get further details](https://www.djangoproject.com/download/)
 
 
 so if you want long-term support (LTS) Version of Django
 ```
-pip install django==2.2
+pip install django==3.2
 ```
 else if you Latest Version of Django
 
