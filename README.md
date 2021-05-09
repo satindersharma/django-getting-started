@@ -106,11 +106,16 @@ virtualenvironment_folder_name\scripts\activate
 
 for example
 
+on window
 ```
-vme\scripts\activate
+vme\Scripts\activate
 ```
 
 
+on linux
+```
+source vme/bin/activate
+```
 
 ##### Second way
 
