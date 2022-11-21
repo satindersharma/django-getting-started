@@ -259,6 +259,10 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # in new version
 MEDIA_ROOT = BASE_DIR /  'media'
 
+
+STATICFILES_DIRS = [BASE_DIR / "static"]
+STATIC_ROOT = BASE_DIR / 'static_cdn'
+
 ```
 
 To get the media and static working add following to main project `urls.py`
@@ -273,9 +277,10 @@ urlpatterns = [
                ]
 
 # media dir works in main project url.py only
+
 if settings.DEBUG:
-    urlpatterns += static(settings.MEDIA_URL,
-                          document_root=settings.MEDIA_ROOT)
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 
 ```
